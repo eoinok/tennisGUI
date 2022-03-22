@@ -24,8 +24,11 @@ Modify the self.addToList() function so that when the Button is pressed a new me
 
 Modify the self.getAverageAge() function so that when the Button is pressed a loop will go through each of the objects in the array, get the members age and add it to an accumulator variable. After the loop has completed the average age should be calculated by dividing the total of all the ages by the number of elements in the array. This value should be printed to the screen. The pseudo-code for this function is as follows
 ```
+intialise the totalOfAllAges variable to be zero
 loop through each element in self.memberList
      totalOfallAges = totalOfAllAges + thisMembers Age(need to call getter on object)
 print totalOfAllAges/numberOfElementsInArray
 ```
+
+hint - len(myList) will evaluate to be the total number of elements in a list called myList
 
