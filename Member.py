@@ -4,7 +4,7 @@ class Member():
         self.__age=arg2
         self.__smoker=arg3
         self.__memberType=arg4
-        self.__gender
+        self.__gender=arg5
 
     def getName(self):
         return self.__name
