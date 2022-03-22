@@ -1,7 +1,6 @@
 # Graphical User Interface for Recording Member of a Tennisclub
 
 This lab exercise has the following objectives:
-- To get more experience of building Graphical User Interfaces using TKinter
 - To expand on the TKinter GUI techniques using:
     - Sliders
     - Checkboxes
