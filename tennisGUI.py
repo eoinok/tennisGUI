@@ -38,16 +38,14 @@ class TennisGUI:
         self.entry5 = Entry()
         self.entry5.pack()
 
-        self.quit = Button(master, text="QUIT", command=self.quit)
-        self.quit.pack()
+        self.quitButton = Button(master, text="QUIT", fg="red", command=master.quit)
+        self.quitButton.pack()
 
         self.addToListButton = Button(master, text="Add To List", command=self.addToList)
         self.addToListButton.pack()
 
         self.getAverageAgeButton = Button(master, text="Get Average Age", command=self.getAverageAge)
         self.getAverageAgeButton.pack()
-
-    def quit(self):
         
 
     def addToList(self):
@@ -60,5 +58,5 @@ class TennisGUI:
 
 
 root = Tk()
-my_gui = MyFirstGUI(root)
+my_gui = TennisGUI(root)
 root.mainloop()
